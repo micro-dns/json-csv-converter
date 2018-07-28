@@ -53,7 +53,12 @@ namespace json_csv_convert
                     //todo 
                     foreach (var v in records["resources"])
                     {
+                        //Console.WriteLine(v.ToString());
+
                         Console.WriteLine(v["psap_id"].ToString());
+                        Console.WriteLine(v["name"].ToString());
+                        Console.WriteLine(v["description"].ToString());
+
                     }
 
                 } else
