@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,16 @@ namespace json_csv_convert
                     //write to output file
 
                     Console.WriteLine(json_contents);
+
+                    JObject records = JObject.Parse(json_contents);
+
+
+                    //todo 
+                    foreach (var v in records["resources"])
+                    {
+                        Console.WriteLine(v["psap_id"].ToString());
+                    }
+
                 } else
                 {
                     //TODO print message of invalid file
