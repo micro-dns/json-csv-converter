@@ -36,7 +36,7 @@
             // 
             this.AppAbout.AutoSize = true;
             this.AppAbout.ForeColor = System.Drawing.Color.White;
-            this.AppAbout.Location = new System.Drawing.Point(13, 43);
+            this.AppAbout.Location = new System.Drawing.Point(13, 82);
             this.AppAbout.Name = "AppAbout";
             this.AppAbout.Size = new System.Drawing.Size(60, 13);
             this.AppAbout.TabIndex = 0;

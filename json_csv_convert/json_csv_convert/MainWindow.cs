@@ -7,6 +7,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -34,44 +35,39 @@ namespace json_csv_convert
                 if (Path.GetExtension(file).ToUpper().Equals(".JSON"))
                 {
                     //TODO process json file
-
-                    //prompt user for save path
-                    String json_contents = File.ReadAllText(file);
-
-                    //read from json
-
-                    //convert to CSV
-                    //option: also convert to xlsx
-
-                    //write to output file
-
-                    Console.WriteLine(json_contents);
-
-                    JObject records = JObject.Parse(json_contents);
-
-
-                    //todo 
-                    foreach (var v in records["resources"])
+                    DataTable table = psap.PSAPParser.Parse(file);
+                    
+                    foreach (DataColumn v in table.Columns)
                     {
-                        //Console.WriteLine(v.ToString());
-
-                        Console.WriteLine(v["psap_id"].ToString());
-                        Console.WriteLine(v["name"].ToString());
-                        Console.WriteLine(v["description"].ToString());
-
+                        Console.WriteLine("\t" + v.ColumnName);
                     }
+                    //output to xlsx
+
+                    FileIO.SaveTo(table, FileIO.OPEN);
 
                 } else
                 {
                     //TODO print message of invalid file
-                    Console.WriteLine("Invalid");
+                    Console.WriteLine("Not a valid file!");
                 }
+                
+
+
+                //convert to CSV
+                //option: also convert to xlsx
+
+                //write to output file
+
             }
         }
 
         void PickFile()
         {
             OpenFileDialog ofd = new OpenFileDialog();
+            ofd.RestoreDirectory = true;
+            ofd.Filter = "JSON |*.json";
+            ofd.Title = "Open a JSON File...";
+
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 files = new string[]{ ofd.FileName };

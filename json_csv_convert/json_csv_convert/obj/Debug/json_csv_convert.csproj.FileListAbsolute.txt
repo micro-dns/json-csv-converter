@@ -21,7 +21,6 @@ E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\CsvHe
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\Newtonsoft.Json.dll
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\CsvHelper.xml
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\Newtonsoft.Json.xml
-E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.csprojAssemblyReference.cache
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.About.resources
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.MainWindow.resources
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.Properties.Resources.resources
@@ -30,3 +29,5 @@ E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.csproj.CopyComplete
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.exe
 E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\obj\Debug\json_csv_convert.pdb
+E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\EPPlus.dll
+E:\SmartGit\json-csv-converter\json_csv_convert\json_csv_convert\bin\Debug\EPPlus.xml

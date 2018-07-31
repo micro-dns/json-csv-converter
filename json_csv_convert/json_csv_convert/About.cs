@@ -12,8 +12,8 @@ namespace json_csv_convert
 {
     public partial class About : Form
     {
-        String app_name = "JSON-CSV Converter";
-        String app_about = "Developed by Desktop Network Services\n\nStudents: Barryn Chun";
+        String app_name = "Preservation Self-Assessment Program\nJSON-CSV Converter";
+        String app_about = "Version 1.0 Alpha\nDeveloped by Desktop Network Services\n\nStudents: Barryn Chun";
 
         public About()
         {
