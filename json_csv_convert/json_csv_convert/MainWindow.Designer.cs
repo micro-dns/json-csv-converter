@@ -1,4 +1,4 @@
-﻿namespace json_csv_convert
+﻿namespace psap_json_converter
 {
     partial class MainWindow
     {

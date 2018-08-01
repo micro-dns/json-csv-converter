@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace json_csv_convert
+namespace psap_json_converter
 {
     static class Program
     {

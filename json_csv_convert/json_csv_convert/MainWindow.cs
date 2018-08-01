@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace json_csv_convert
+namespace psap_json_converter
 {
     public partial class MainWindow : Form
     {

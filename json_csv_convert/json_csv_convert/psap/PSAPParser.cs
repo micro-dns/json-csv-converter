@@ -8,7 +8,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace json_csv_convert.psap
+namespace psap_json_converter.psap
 {
     class PSAPParser
     {

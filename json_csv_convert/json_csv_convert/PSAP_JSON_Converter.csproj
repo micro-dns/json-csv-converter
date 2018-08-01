@@ -7,7 +7,7 @@
     <ProjectGuid>{37135BD7-D6D9-4429-A72F-FAA5C270A44B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>json_csv_convert</RootNamespace>
-    <AssemblyName>json_csv_convert</AssemblyName>
+    <AssemblyName>PSAP JSON Converter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

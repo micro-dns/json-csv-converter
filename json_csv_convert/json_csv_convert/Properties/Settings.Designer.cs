@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace json_csv_convert.Properties
+namespace psap_json_converter.Properties
 {
 
 
