@@ -1,2 +1,2 @@
-# json-csv-converter
-Converts a JSON file to a specifically-formatted CSV file. For Preservations.
+# PSAP JSON Converter
+Converts a JSON file to a specifically-formatted .xlsx file. For Preservations.
